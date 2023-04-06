@@ -116,6 +116,7 @@ resource "linode_domain_record" "demolinode_net_domain_record" {
   ttl_sec     = 30
 }
 
+# Firewall
 resource "linode_firewall" "demoLinodeFirewall" {
   label = "demoLinodeFirewall_label"
   inbound {
