@@ -58,6 +58,7 @@ resource "linode_instance" "srv3_example_instance" {
   }
 }
 
+# Linode NodeBalancer
 resource "linode_nodebalancer" "demoLinode_LoadBalancer" {
   label  = "demoLinode_LoadBalancer"
   region = "us-central"
